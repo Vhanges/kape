@@ -1,0 +1,85 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    font-family: poppins;
+}
+
+.form-login{
+    margin: auto;
+    position: absolute;
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 5px 1px lightgrey;
+}
+
+/* .form-login{
+    margin: auto;
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding: 10px;
+    border-radius: 5px;
+    border-top: 50px solid red;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid blue;
+
+} */
+
+.container{
+    /* background-color: #2D2F31; */
+    padding: 30px 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.field{
+    padding: .5rem;
+    margin: auto;
+}
+
+
+label{
+    padding: auto 5px;
+}
+
+#username, #password{
+    width: 97%;
+    height: 25px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid;
+}
+
+#username:focus, #password:focus{
+    border: none !important;
+    /* transform: scaleY(1.1); */
+    outline: solid 2px green;
+    /* transition: ease-in 0.5s; */
+}
+.btn-submit{
+    width: 50%;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: Poppins;
+    margin: auto auto auto 5.5rem;
+    border-radius: 4px;
+}
+
+
+
+@media screen and (max-width: 1980px){
+    .form-login{
+        left: 37%;
+        margin-top: 9%;
+    }        
+
+}

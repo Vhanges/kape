@@ -1,0 +1,1000 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="ex-index.css">
+    <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+
+    <title>28th Avenue Cafe - Antipolo Branch</title>
+</head>
+<body>
+
+
+    <header>
+
+         <!-- <div class="logo">
+            <a href="#">28th Avenue Cafe  <span>Antipolo Branch</span></a>
+        </div> -->
+
+        <span onclick="openNav()" >
+            <i class="fas fa-bars openNav"></i> <!-- Font Awesome hamburger icon -->
+        </span>
+
+        <div id="mySidenav" class="sidenav">
+            <div class="container">
+                <ul>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Socials</a></li>
+                </ul>
+            </div>
+            
+        </div>
+
+        <!-- <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#shop">SHOP</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav> -->
+    </header>
+
+    <div class="content">
+        <h2>28th Avenue Cafe</h2>
+        <p>Would like to start your day with a delicious drinks?</p>
+    </div>
+
+    <div class="menu" id="menu">
+        <div class="menu-header">
+            <div class="container">
+                <h3>Menu &nbsp; •</h3>
+                <h4>28th Avenue Cafe</h4>
+            </div>
+        </div>
+        <div class="menu-content">
+            <div class="hot-signatures">
+                <div class="hot-signatures-image">
+                    <img src="images/hot.svg" alt="" id="scrollspy1">
+                </div>
+                <div class="hot-signatures-body">
+                    <h2>Hot signatures</h2>
+                </div>
+            </div>
+            <div class="iced-coffee">
+                <div class="iced-coffee-image">
+                    <img src="images/ice.svg" alt="" id="scrollspy2">
+                </div>
+                <div class="iced-coffee-body">
+                    <h2>Iced Coffee</h2>
+                </div>
+            </div>
+            <div class="frappe-series">
+                <div class="frappe-series-image">
+                    <img src="images/frappe.svg" alt="" id="scrollspy3">
+                </div>
+                <div class="frappe-series-body">
+                    <h2>Frappe Series</h2>
+                    
+                </div>
+            </div>
+            <div class="fruit-tea">
+                <div class="fruit-tea-image">
+                    <img src="images/fruit tea.svg" alt=""id="scrollspy4">
+                </div>
+                <div class="fruit-tea-body">
+                    <h2>Fruit Tea</h2>
+                    
+                </div>
+            </div>
+            <div class="milktea">
+                <div class="milktea-image">
+                    <img src="images/milktea.svg" alt=""id="scrollspy5">
+                </div>
+                <div class="milktea-body">
+                    <h2>Milktea</h2>
+                    
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    
+
+    <div class="shop" id="shop">
+        <div class="shop-header" id="hot-sig">
+            <div class="container">
+                <h3>Shop &nbsp; • &nbsp;</h3>
+                <br><br>
+                <h4>28th Avenue Cafe - Hot Signatures</h4>
+            </div>
+        </div>
+        <div class="shop-box">
+            <div class="item-1">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/matcha hot signatures coffee.svg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-sharp-half"></i>
+                        <label class="cash">35</label>
+                        <h3>MATCHA</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="item-2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/hot choco.svg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-sharp-half"></i>
+                        <label class="cash">Php35</label>
+                        <h3>HOT CHOCO</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="item-3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/cappuccino.svg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-sharp-half"></i>
+                        <label class="cash">Php35</label>
+                        <h3>CAPUCCINO</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="item-4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/white mocha.svg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-sharp-half"></i>
+                        <label class="cash">Php35</label>
+                        <h3>WHITE MOCHA</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="item-5">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/blended.svg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-sharp-half"></i>
+                        <label class="cash">Php35</label>
+                        <h3>BLENDED AMERICANO</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="item-6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/caramel.svg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-sharp-half"></i>
+                        <label class="cash">Php35</label>
+                        <h3>CARAMEL MACCHIATO</h3>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="shop" id="shop">
+                <div class="shop-header" id="iced-coffee">
+                    <div class="container">
+                        <h3>Shop &nbsp; • &nbsp;</h3>
+                        <br><br>
+                        <h4>28th Avenue Cafe - Iced Coffee</h4>
+                    </div>
+                </div>
+                <div class="shop-box">
+                    <div class="item-1">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/matcha iced coffee.svg">
+                            </div>
+                            <div class="card-body">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-sharp-half"></i>
+                                <label class="cash">Php35</label>
+                                <h3>MATCHA</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-2">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/hazelnut iced coffee.svg">
+                            </div>
+                            <div class="card-body">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-sharp-half"></i>
+                                <label class="cash">Php35</label>
+                                <h3>HAZELNUT</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/charamel machiato iced coffee.svg">
+                            </div>
+                            <div class="card-body">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-sharp-half"></i>
+                                <label class="cash">Php35</label>
+                                <h3>CARAMEL MACCHIATO</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-4">
+                        <div class="card">
+                            <div class="card-image"> 
+                                <img src="images/white choco.svg">
+                            </div>
+                            <div class="card-body">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-sharp-half"></i>
+                                <label class="cash">Php35</label>
+                                <h3>WHITE CHOCOLATE</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-5">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/choco fudge.svg">
+                            </div>
+                            <div class="card-body">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-sharp-half"></i>
+                                <label class="cash">Php35</label>
+                                <h3>CHOCO FUDGE </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/butterscotch.svg">
+                            </div>
+                            <div class="card-body">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-sharp-half"></i>
+                                <label class="cash">Php35</label>
+                                <h3>BUTTERSCOTCH</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/salted caramel iced.svg">
+                            </div>
+                            <div class="card-body">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-sharp-half"></i>
+                                <label class="cash">Php35</label>
+                                <h3>SALTED CARAMEL</h3>
+                            </div>
+                        </div>
+                    </div>
+                    
+            <div class="shop" id="shop">
+                <div class="shop-header" id="frappe">
+                    <div class="container">
+                        <h3>Shop &nbsp; • &nbsp;</h3>
+                        <br><br>
+                        <h4>28th Avenue Cafe - Frappe Series</h4>
+                    </div>
+                </div>
+                <div class="shop-box">
+                    <div class="item-1">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/tarpo frappe.svg">
+                            </div>
+                            <div class="card-body">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-sharp-half"></i>
+                                <label class="cash">Php45</label>
+                                <h3>TARO</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-2">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/melon frappe.svg">
+                            </div>
+                            <div class="card-body">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-sharp-half"></i>
+                                <label class="cash">Php45</label>
+                                <h3>MELON</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/vanilla.svg">
+                            </div>
+                            <div class="card-body">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-sharp-half"></i>
+                                <label class="cash">Php45</label>
+                                <h3>VANILLA</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/purple.svg">
+                            </div>
+                            <div class="card-body">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-sharp-half"></i>
+                                <label class="cash">Php45</label>
+                                <h3>PURPLE YAM</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-5">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/frapuccino frappe.svg">
+                            </div>
+                            <div class="card-body">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-sharp-half"></i>
+                                <label class="cash">Php45</label>
+                                <h3>FRAPUCCINO</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/mochaccino.svg">
+                            </div>
+                            <div class="card-body">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-sharp-half"></i>
+                                <label class="cash">Php45</label>
+                                <h3>MOCHACCINO</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-7">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/choco kisses.svg">
+                            </div>
+                            <div class="card-body">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-sharp-half"></i>
+                                <label class="cash">Php45</label>
+                                <h3>CHOCO KISSES</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-8">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/double dutch.svg">
+                            </div>
+                            <div class="card-body">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-sharp-half"></i>
+                                <label class="cash">Php45</label>
+                                <h3>DOUBLE DUTCH</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-9">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/creamy avocado frappe.svg">
+                            </div>
+                            <div class="card-body">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-sharp-half"></i>
+                                <label class="cash">Php45</label>
+                                <h3>CREAMY AVOCADO</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="shop" id="shop">
+                        <div class="shop-header" id="fruit-tea">
+                            <div class="container">
+                                <h3>Shop &nbsp; • &nbsp;</h3>
+                                <br><br>
+                                <h4>28th Avenue Cafe - Fruit Tea</h4>
+                            </div>
+                        </div>
+                        <div class="shop-box">
+                            <div class="item-1">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/melon fruit tea.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php45</label>
+                                        <h3>MELON</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-2">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/lemon fruit tea.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php45</label>
+                                        <h3>LEMON</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/mango fruit tea.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php45</label>
+                                        <h3>MANGO</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/fruittea lychee.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php45</label>
+                                        <h3>LYCHEE</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-5">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/blue berry fruit tea.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php45</label>
+                                        <h3>BLUE BERRY</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-6">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/wilberry fruit tea.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php45</label>
+                                        <h3>WILBERRY</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-7">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/strawberry fruit tea.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php45</label>
+                                        <h3>STRAWBERRY</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-8">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/green apple.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php45</label>
+                                        <h3>GREEN APPLE</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-9">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/four seasons fruit tea.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php45</label>
+                                        <h3>FOUR SEAsONS</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-10">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/passion fruit tea.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php45</label>
+                                        <h3>PASSION FRUIT</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                                
+                    <div class="shop" id="shop">
+                        <div class="shop-header" id="milktea">
+                            <div class="container">
+                                <h3>Shop &nbsp; • &nbsp;</h3>
+                                <br><br>
+                                <h4>28th Avenue Cafe - Milk Tea</h4>
+                            </div>
+                        </div>
+                        <div class="shop-box">
+                            <div class="item-1">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/taro milktea.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php28/38</label>
+                                        <h3>TARO</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-2">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/matcha milktea.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php28/38</label>
+                                        <h3>MATCHA</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/okinawa milktea.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php28/38</label>
+                                        <h3>OKINAWA</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/hokkaido milktea.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php28/38</label>
+                                        <h3>HOKKAIDO</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-5">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/chocolate milktea.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php28/38</label>
+                                        <h3>CHOCOLATE</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-6">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/red velvet milktea.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php28/38</label>
+                                        <h3>RED VELVET</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-7">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/cheesecake.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php28/38</label>
+                                        <h3>CHEESECAKES</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-8">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/dark choco milktea.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php28/38</label>
+                                        <h3>DARK CHOCO</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-9">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/strawberry milktea.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php28/38</label>
+                                        <h3>STRAWBERRY</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-10">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/brown sugar.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php28/38</label>
+                                        <h3>BROWN SUGAR</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-11">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/winter melon milktea.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php28/38</label>
+                                        <h3>WINTERMELON</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-12">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/salted caramel milktea.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php28/38</label>
+                                        <h3>SALTED CARAMEL</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-13">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/cookies and cream.svg">
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-sharp-half"></i>
+                                        <label class="cash">Php28/38</label>
+                                        <h3>COOKIES AND CREAM</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <!-- <div class="contact" id="contact">
+                            <div class="contact-box">
+                                <div class="contact-image">
+                                    <img src="images/background2.svg">
+                                </div>
+                            </div>
+                            <div class="contact-box">
+                                <div class="contact-body">
+                                    <form>
+                                        <h2>Contact Us</h2>
+                                        <div class="form-content">
+                                            <input type="text" required>
+                                            <span></span>
+                                            <label>Username</label>
+                                        </div>
+                                        <div class="form-content">
+                                            <input type="email" required>
+                                            <span></span>
+                                            <label>Email</label>
+                                        </div>
+                                        <button type="submit">Send</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        
+        </div>
+    </div>
+
+    
+
+    <div class="order-section">
+        <div class="order-header" id="order">
+            <div class="container">
+                <h3 class="order-h3">Order &nbsp; • &nbsp;</h3>
+                <br><br>
+                <h4 class="order-h4">Order Section</h4>
+            </div>
+        </div>
+        <div class="container-order">
+            <div class="order-card">
+                <div class="card-order">
+                    <div class="card-spacer-order">
+                        <div class="spacer"><p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Want to order?
+                            <br>
+                            Click the button below!
+                            <br><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓↓↓
+                            </p>
+
+                            <div class="card-body-order">
+                                <a class="btn-order" id="btn-order" href="client-dets.html">Click Here</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="hot-signatures">
+            <div class="hot-signatures-image">
+                <img src="images/hot.svg" alt="" id="scrollspy1">
+            </div>
+            <div class="hot-signatures-body">
+                <h2>Hot signatures</h2>
+            </div>
+        </div> -->
+        
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-box">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="social-media">
+                        <div class="column">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="row">
+                    <div class="brand">
+                        <div class="column">
+                            <label class="brand-n">28th Avenue Cafe <span>Antipolo Branch</span></label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="copyright">
+                        <div class="column">
+                            <label class="ctto">Copyright &copy; 2024</label>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>                         
+    </div>
+
+
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/fd802afef5.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
